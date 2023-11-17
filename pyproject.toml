@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "refresh-cert-panos"
+version = "0.0.1"
+description = "Example of using Panorama as a proxy for refreshing certificates on PAN-OS devices"
+authors = ["Calvin Remsburg <cremsburg.dev@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ipdb = "^0.13.13"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+black = "^23.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
